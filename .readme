@@ -1,0 +1,5 @@
+# Commando para copiar desde terminal al contenedor
+
+docker cp ./index.html nginx-override-3:/usr/share/nginx/html/index.html
+
+nginx-override-3 || el nombre del contenedor
